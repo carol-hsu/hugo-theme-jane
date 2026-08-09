@@ -182,23 +182,23 @@
 /**------------------------------------------------------------------------
  *                           page styles
  *------------------------------------------------------------------------**/
-@import "_page/home";
-@import "_page/archive";
-@import "_page/tag_cloud";
+@use "_page/home";
+@use "_page/archive";
+@use "_page/tag_cloud";
 
 /**------------------------------------------------------------------------
  *                           components
  *------------------------------------------------------------------------**/
-@import "_components/card";
-@import "_components/search";
+@use "_components/card";
+@use "_components/search";
 
 /**------------------------------------------------------------------------
  *                           shortcodes
  *------------------------------------------------------------------------**/
-@import "_shortcodes/highlight";
-@import "_shortcodes/notice";
+@use "_shortcodes/highlight";
+@use "_shortcodes/notice";
 
 /**------------------------------------------------------------------------
  *                           custom styles
  *------------------------------------------------------------------------**/
-@import "_custom";
+@use "custom";
